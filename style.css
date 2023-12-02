@@ -34,7 +34,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
   /* background-color: rgb(92, 90, 90); */
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  background-image: linear-gradient(to violet);
   
 }
 

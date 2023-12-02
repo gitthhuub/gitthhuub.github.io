@@ -668,14 +668,16 @@ section .title::after {
 }
 
 /* response media query starts */
-/* ... (your existing styles) ... */
-
-/* ... (your existing styles) ... */
 
 /* Tablet Styles */
 @media (max-width: 991px) {
+ .navbar {
+    background-image: linear-gradient(to violet); 
+  }
+  
   .max-width {
     padding: 0 50px;
+
   }
   .navbar .menu li a {
     font-size: 15px;
@@ -694,9 +696,13 @@ section .title::after {
 
 /* Mobile Styles */
 @media (max-width: 690px) {
+ .navbar {
+    background-image: linear-gradient(to green); 
+  }
   .max-width {
     padding: 0 23px;
   }
+
   .home .home-content .text-1 {
     font-size: 25px;
   }
@@ -750,6 +756,9 @@ section .title::after {
 
 /* Extra Large Screens */
 @media (min-width: 1008px) {
+.navbar {
+    background-image: linear-gradient(to red); /* Change color for extra-large screens */
+  }
   .serv-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -9,6 +9,8 @@
 html {
   scroll-behavior: smooth;
 }
+#github-stack{
+  text-align:center;
 
 body {
   background-image: url('images/bg.jpg');
@@ -422,6 +424,7 @@ section .title::after {
   width: 8%;
   margin-left: 10px;
 }
+
 .projects .projectDetails .projectInfo .links {
   display: flex;
   flex-direction: row;

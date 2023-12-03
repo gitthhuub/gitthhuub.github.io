@@ -668,16 +668,41 @@ section .title::after {
 }
 
 /* response media query starts */
-
-/* Tablet Styles */
-@media (max-width: 991px) {
- .navbar {
-    background-image: linear-gradient(to violet); 
+@media (max-width: 1300px) {
+  .home .max-width {
+    margin-left: 0px;
   }
-  
+  .navbar .menu li a {
+    font-size: 18px;
+    margin-left: 22px;
+  }
+}
+@media (max-width: 1104px) {
+  .navbar .logo a {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .about .about-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+  .navbar .menu li a {
+    font-size: 15px;
+    margin-left: 21px;
+  }
+  .home .home-content .text-3 {
+    font-size: 34px;
+  }
+  .home .home-content .text-3 span {
+    font-size: 34px;
+  }
+  .home .passport {
+    width: 15%;
+  }
+}
+@media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
-
   }
   .navbar .menu li a {
     font-size: 15px;
@@ -693,12 +718,86 @@ section .title::after {
     width: 15%;
   }
 }
-
-/* Mobile Styles */
-@media (max-width: 690px) {
- .navbar {
-    background-image: linear-gradient(to green); 
+@media (max-width: 948px) {
+  .max-width {
+    padding: 0 50px;
   }
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active {
+    visibility: hidden;
+  }
+  .menu-btn i.active::before {
+    visibility: visible;
+    position: absolute;
+    content: "\e5cd";
+  }
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: black;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 40px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 30px;
+  }
+  .home .home-content .text-3 span {
+    font-size: 30px;
+  }
+  .home .passport {
+    margin-left: 50px;
+    padding-top: 220px;
+    width: 20%;
+  }
+  .max-width {
+    max-width: 800px;
+  }
+
+  .about .about-content .column {
+    width: 100%;
+  }
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
+  .projects .serv-content .card {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  .skills .skills-content .column {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 690px) {
   .max-width {
     padding: 0 23px;
   }
@@ -706,9 +805,11 @@ section .title::after {
   .home .home-content .text-1 {
     font-size: 25px;
   }
+
   .home .home-content .text-2 {
     font-size: 40px;
   }
+
   .home .home-content .text-3 {
     font-size: 25px;
   }
@@ -729,15 +830,15 @@ section .title::after {
     margin-top: 25px;
   }
 }
-
-/* Small Mobile Styles */
 @media (max-width: 500px) {
   .home .home-content .text-1 {
     font-size: 20px;
   }
+
   .home .home-content .text-2 {
     font-size: 30px;
   }
+
   .home .home-content .text-3 {
     font-size: 20px;
   }
@@ -753,12 +854,18 @@ section .title::after {
     margin-top: 25px;
   }
 }
-
-/* Extra Large Screens */
-@media (min-width: 1008px) {
-.navbar {
-    background-image: linear-gradient(to red); /* Change color for extra-large screens */
+@media (min-width: 0px) and (max-width: 640px) {
+  .serv-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
+  #home .passport {
+    margin-left: 150px;
+    padding-top: 200px;
+    width: 350%;
+  }
+}
+@media (min-width: 641px) and (max-width: 1007px) {
   .serv-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

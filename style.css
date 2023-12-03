@@ -13,6 +13,7 @@ html {
 body {
   background-image: url('images/bg.jpg');
 /*   background-color: #0a050a; */
+background-color: blue;
   background-size: cover;
   background-attachment: fixed; 
 }

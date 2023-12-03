@@ -336,6 +336,7 @@
               flex-direction: row;
               align-items: center;
               justify-content: space-between;
+justify-content:center;
               margin-top: 20px;
             "
           >
@@ -357,6 +358,7 @@
               flex-direction: row;
               align-items: center;
               justify-content: space-between;
+justify-content:center;
               margin-top: 20px;
             "
           >
@@ -367,6 +369,7 @@
               align="left"
               alt="Sarita Kumari"
               style="max-width: 100%"
+justify-content:center;
             />
           </div>
 

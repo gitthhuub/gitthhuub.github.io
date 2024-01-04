@@ -709,16 +709,38 @@ section .title::after {
     width: 15%;
   }
 }
+-------------------------------------------------------------
+
+@media (max-width: 1104px) {
+  .navbar .logo a {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .about .about-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+  .navbar .menu li a {
+    font-size: 15px;
+    margin-left: 21px;
+  }
+  .home .home-content .text-3 {
+    font-size: 34px;
+  }
+  .home .home-content .text-3 span {
+    font-size: 34px;
+  }
+  .home .passport {
+    width: 15%;
+  }
+}
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
   }
   .navbar .menu li a {
-/*     font-size: 15px;
-    margin-left: 22px; */
-
-  font-size: 10px;
-    margin-left: 12px;
+    font-size: 15px;
+    margin-left: 22px;
   }
   .home .home-content .text-3 {
     font-size: 30px;
@@ -807,6 +829,46 @@ section .title::after {
   .skills .skills-content .column {
     width: 100%;
     margin-bottom: 35px;
+  }
+}
+@media (min-width: 412px) and (max-width: 915px) {
+  /* Modifications for screen size (412-915) */
+  .max-width {
+    padding: 0 23px;
+  }
+
+  .navbar .logo a {
+    font-size: 20px; /* Adjust font size for the logo */
+  }
+
+  .navbar .menu li a {
+    font-size: 18px; /* Adjust font size for menu items */
+  }
+
+  .home .home-content .text-1,
+  .home .home-content .text-3,
+  .home .home-content .text-3 span {
+    font-size: 18px; /* Adjust font sizes for home content */
+  }
+
+  .home .home-content .text-2 {
+    font-size: 30px; /* Adjust font size for text-2 */
+  }
+
+  .home .passport {
+    margin-left: 10px; /* Adjust margin for the passport */
+    padding-top: 20px; /* Adjust padding for the passport */
+    width: 80%; /* Adjust width for the passport */
+  }
+
+  .projects .serv-content .card,
+  .skills .skills-content .column,
+  .contact .contact-content .column {
+    width: 100%;
+  }
+
+  #contact-info {
+    margin-top: 25px;
   }
 }
 @media (max-width: 690px) {

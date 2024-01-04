@@ -710,7 +710,6 @@ section .title::after {
   }
 }
 -------------------------------------------------------------
-
 @media (max-width: 1104px) {
   .navbar .logo a {
     font-size: 25px;
@@ -834,31 +833,31 @@ section .title::after {
 @media (min-width: 412px) and (max-width: 915px) {
   /* Modifications for screen size (412-915) */
   .max-width {
-    padding: 0 23px;
+    padding: 0 15px; /* Decrease the padding */
   }
 
   .navbar .logo a {
-    font-size: 20px; /* Adjust font size for the logo */
+    font-size: 18px; /* Adjust font size for the logo */
   }
 
   .navbar .menu li a {
-    font-size: 18px; /* Adjust font size for menu items */
+    font-size: 16px; /* Adjust font size for menu items */
   }
 
   .home .home-content .text-1,
   .home .home-content .text-3,
   .home .home-content .text-3 span {
-    font-size: 18px; /* Adjust font sizes for home content */
+    font-size: 16px; /* Adjust font sizes for home content */
   }
 
   .home .home-content .text-2 {
-    font-size: 30px; /* Adjust font size for text-2 */
+    font-size: 26px; /* Adjust font size for text-2 */
   }
 
   .home .passport {
-    margin-left: 10px; /* Adjust margin for the passport */
-    padding-top: 20px; /* Adjust padding for the passport */
-    width: 80%; /* Adjust width for the passport */
+    margin-left: 5px; /* Adjust margin for the passport */
+    padding-top: 10px; /* Adjust padding for the passport */
+    width: 90%; /* Adjust width for the passport */
   }
 
   .projects .serv-content .card,
@@ -868,9 +867,13 @@ section .title::after {
   }
 
   #contact-info {
-    margin-top: 25px;
+    margin-top: 15px; /* Reduce the margin for contact info */
+    /* Add any additional styles for contact info */
   }
+
+  /* Add more modifications or styles as needed */
 }
+
 @media (max-width: 690px) {
   .max-width {
     padding: 0 23px;
@@ -904,6 +907,7 @@ section .title::after {
     margin-top: 25px;
   }
 }
+
 @media (max-width: 500px) {
   .home .home-content .text-1 {
     font-size: 20px;
@@ -928,6 +932,7 @@ section .title::after {
     margin-top: 25px;
   }
 }
+
 @media (min-width: 0px) and (max-width: 640px) {
   .serv-content {
     display: grid;
@@ -939,6 +944,7 @@ section .title::after {
     width: 350%;
   }
 }
+
 @media (min-width: 641px) and (max-width: 1007px) {
   .serv-content {
     display: grid;

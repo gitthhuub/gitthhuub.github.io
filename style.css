@@ -714,8 +714,11 @@ section .title::after {
     padding: 0 50px;
   }
   .navbar .menu li a {
-    font-size: 15px;
-    margin-left: 22px;
+/*     font-size: 15px;
+    margin-left: 22px; */
+
+  font-size: 10px;
+    margin-left: 12px;
   }
   .home .home-content .text-3 {
     font-size: 30px;

@@ -65,12 +65,12 @@ function sendMail(params) {
   resumeLink.addEventListener("click", function (event) {
     event.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/19v9EAV3DNb3nV5mwJklAxKYAgJ7_sLzL/view?usp=sharing",
+      "https://drive.google.com/file/d/1RogGgw0vncxXcY2OQYCyDk0wVjLnmpQf/view?usp=sharing",
       "_blank"
     );
     let link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=19v9EAV3DNb3nV5mwJklAxKYAgJ7_sLzL";
+      "https://drive.google.com/uc?export=download&id=1RogGgw0vncxXcY2OQYCyDk0wVjLnmpQf";
     link.download = "Sarita-Kumari-RESUME.pdf";
     link.click();
   });
@@ -79,12 +79,12 @@ function sendMail(params) {
   resumeLink.addEventListener("click", function (event) {
     event.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/19v9EAV3DNb3nV5mwJklAxKYAgJ7_sLzL/view?usp=sharing",
+      "https://drive.google.com/file/d/1RogGgw0vncxXcY2OQYCyDk0wVjLnmpQf/view?usp=sharing",
       "_blank"
     );
     let link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1-MTMffnC7x5-rvN2UdGKMwISH2u9KwZO";
+      "https://drive.google.com/uc?export=download&id=1RogGgw0vncxXcY2OQYCyDk0wVjLnmpQf";
     link.download = "Sarita-Kumari-RESUME.pdf";
     link.click();
   });

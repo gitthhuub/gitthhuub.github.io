@@ -894,5 +894,6 @@ section .title::after {
     margin-left: 70px;
 }
 .home-content{
+  min-width: 50%;
   max-width: 50%;
 }
